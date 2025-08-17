@@ -1,0 +1,15 @@
+<div class="sidebar-container" [class.open]="isOpen()">
+
+  <!-- Botón hamburguesa -->
+  <button class="menu-btn" (click)="toggleMenu()">
+    <i class="fi fi-rr-menu-burger"></i>
+  </button>
+
+  <!-- Lista de categorías -->
+  <ul *ngIf="isOpen()">
+    <li *ngFor="let cat of categories" (click)="selectCategory(cat.name)">
+      <img [src]="cat.icon" alt="{{cat.name}}" class="cat-icon"/>
+      {{ cat.name }}
+    </li>
+  </ul>
+</div>

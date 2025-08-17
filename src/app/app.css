@@ -1,0 +1,75 @@
+
+.main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+
+.art-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.art-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.art-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.art-card h3 {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.art-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.like-btn {
+  margin-top: 12px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.like-btn:hover {
+  background-color: #ff4048;
+}
+
+
+.layout {
+  display: flex;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  flex: 1;
+}

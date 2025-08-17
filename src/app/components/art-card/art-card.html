@@ -1,0 +1,9 @@
+<div class="art-card">
+  <img [src]="image" alt="{{ title }}" class="art-image" />
+  <h3>{{ title }}</h3>
+  <h2>{{ category }}</h2>
+  <p>{{ description }}</p>
+  <button class="like-btn" (click)="handleLike()">
+    ❤️ Me gusta {{ likes }}
+  </button>
+</div>

@@ -1,0 +1,61 @@
+/* Contenedor del sidebar */
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  left: -200px; /* empieza oculto a la izquierda */
+  width: 200px;
+  height: 100vh;
+  background: #222;
+  color: white;
+  padding: 1rem;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+/* Cuando está abierto */
+.sidebar-container.open {
+  left: 0;
+}
+
+/* Botón hamburguesa */
+.menu-btn {
+  position: absolute;
+  right: -50px; /* fuera del sidebar */
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  background: #333;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* tamaño del icono */
+  color: white;
+}
+
+/* Lista de categorías */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 60px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background: #444;
+}
+
+/* Iconos de categoría */
+.cat-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
