@@ -37,7 +37,12 @@ export class App {
   //Abine
   { title: 'Goku', description: 'Dragon Ball', category: 'Anime', image: 'images/Goku.jpg', likes: 0 },
   { title: 'Saitama', description: 'One Punch Man', category: 'Anime', image: 'images/OnePunchMan.jpg', likes: 0 },
-  { title: 'Saitama', description: 'One Punch Man', category: 'Anime', image: 'images/OnePunchMan.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
+  { title: 'Demon Slayer', description: 'Demon Slayer', category: 'Anime', image: 'images/DemonSLAYER.jpg', likes: 0 },
   { title: 'Saitama', description: 'One Punch Man', category: 'Anime', image: 'images/OnePunchMan.jpg', likes: 0 },
   { title: 'Saitama', description: 'One Punch Man', category: 'Anime', image: 'images/OnePunchMan.jpg', likes: 0 },
   { title: 'Saitama', description: 'One Punch Man', category: 'Anime', image: 'images/OnePunchMan.jpg', likes: 0 },
@@ -136,7 +141,9 @@ export class App {
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
-  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 }
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'The last Dinner', description: 'Classical', category: 'Classical', image: 'images/Dinner.jpg', likes: 0 }
+  
 
 ]);
 
