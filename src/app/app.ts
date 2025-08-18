@@ -56,6 +56,21 @@ export class App {
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
+  { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 },
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 }
 ]);
 
