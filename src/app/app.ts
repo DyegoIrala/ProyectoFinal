@@ -27,8 +27,8 @@ export class App {
 
   arts = signal<Art[]>([
   //Classical Art
-  { title: 'Test', description: 'Obra clásica', category: 'Classical', image: 'images/DINNER.jpg', likes: 0 },
-  { title: 'Test', description: 'Obra clásica', category: 'Classical', image: 'images/DINNER.jpg', likes: 0 },
+  { title: 'Test', description: 'Obra clásica', category: 'Classical', image: 'images/DINNER.webp', likes: 0 },
+  { title: 'Test', description: 'Obra clásica', category: 'Classical', image: 'images/DINNER.webp', likes: 0 },
   { title: 'Mona Lisa', description: 'Obra clásica', category: 'Classical', image: 'images/Retrato.jpg', likes: 0 },
   { title: 'Mona Lisa', description: 'Obra clásica', category: 'Classical', image: 'images/Retrato.jpg', likes: 0 },
   { title: 'Mona Lisa', description: 'Obra clásica', category: 'Classical', image: 'images/Retrato.jpg', likes: 0 },
