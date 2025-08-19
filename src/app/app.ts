@@ -102,7 +102,12 @@ export class App {
   { title: 'Goku', description: 'Dragon Ball', category: 'Anime', image: 'images/Goku.jpg', likes: 0 },
   { title: 'Goku', description: 'Dragon Ball', category: 'Anime', image: 'images/Goku.jpg', likes: 0 },
   //Juegos 8 bit
-  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
+  { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros2.jpg', likes: 0 },
   { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
   { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
   { title: 'Mario Bros', description: 'Videojuego retro', category: '8 bit', image: 'images/MarioBros.jpeg', likes: 0 },
