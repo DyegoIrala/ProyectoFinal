@@ -24,7 +24,6 @@ interface Art {
 
 export class App {
 
-
   arts = signal<Art[]>([
   //Classical Art
   { title: 'Test', description: 'Obra clásica', category: 'Classical', image: 'images/DINNER.jpg', likes: 0 },
@@ -99,18 +98,17 @@ export class App {
   { title: 'Deltarune', description: 'Videojuego 8bit', category: '8 bit', image: 'images/Deltarune.gif', likes: 0 }
 
 ]);
-
-
   selectedCategory = signal<string>('Todos');
 
+
+  
 
   applyFilter(event: { category?: string }) {
     this.selectedCategory.set(event.category || 'Todos');
   }
+
   filteredArts() {
-    if (this.selectedCategory() === 'Todos') {
-      return this.arts();
-    }
+    if (this.selectedCategory() === 'Todos') return this.arts();
     return this.arts().filter(art => art.category === this.selectedCategory());
   }
 
@@ -124,5 +122,11 @@ export class App {
         art.title === title ? { ...art, likes: art.likes + 1 } : art
       )
     );
+  };
+
+  // Lazy load del componente ArtCard
+  async loadArtCard() {
+    const { ArtCard } = await import('./components/art-card/art-card');
+    return ArtCard;
   }
 }
